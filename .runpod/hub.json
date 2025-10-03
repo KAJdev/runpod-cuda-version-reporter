@@ -7,7 +7,7 @@
   "config": {
     "endpointType": "LB",
     "runsOn": "CPU",
-    "instanceId": "cpu5c-8-16",
+    "cpuFlavor": "cpu5c-8-16",
     "containerDiskInGb": 20,
     "presets": [
       {

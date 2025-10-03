@@ -5,6 +5,7 @@
   "category": "utility",
   "iconUrl": "https://avatars.githubusercontent.com/u/37021919",
   "config": {
+    "endpointType": "LB",
     "runsOn": "GPU",
     "containerDiskInGb": 20,
     "presets": [

@@ -6,7 +6,8 @@
   "iconUrl": "https://avatars.githubusercontent.com/u/37021919",
   "config": {
     "endpointType": "LB",
-    "runsOn": "GPU",
+    "runsOn": "CPU",
+    "instanceId": "cpu3-2-4",
     "containerDiskInGb": 20,
     "presets": [
       {

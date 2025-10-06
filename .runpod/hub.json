@@ -6,8 +6,6 @@
   "iconUrl": "https://avatars.githubusercontent.com/u/37021919",
   "config": {
     "endpointType": "LB",
-    "runsOn": "CPU",
-    "cpuFlavor": "cpu5c-8-16",
     "containerDiskInGb": 20,
     "presets": [
       {

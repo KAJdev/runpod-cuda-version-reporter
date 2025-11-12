@@ -3,6 +3,7 @@
 A tiny RunPod Serverless worker whose *entire job* is to tell you what CUDA version it's running on. That’s it. No frills, no hidden features, no actual productivity value. It’s the digital equivalent of asking, “Hey, you up?” — but for GPUs.
 
 
+
 ## Useful for:
 
 - Debugging mysterious CUDA version mismatches  

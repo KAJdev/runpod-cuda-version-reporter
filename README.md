@@ -4,8 +4,6 @@ A tiny RunPod Serverless worker whose *entire job* is to tell you what CUDA vers
 
 
 
-
-
 ## Useful for:
 
 - Debugging mysterious CUDA version mismatches  

@@ -24,7 +24,7 @@ RUN head -c 500M </dev/urandom > /bigfile1
 
 RUN head -c 200M </dev/urandom > /bigfil2
 
-RUN head -c 1000M </dev/urandom > /bigfile3
+RUN head -c 3000M </dev/urandom > /bigfile3
 
 # Python dependencies
 COPY builder/requirements.txt /requirements.txt

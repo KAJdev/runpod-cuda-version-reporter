@@ -34,7 +34,7 @@ ADD src .
 # make some layers for testing
 RUN head -c 500M </dev/urandom > /bigfile1
 
-RUN head -c 200M </dev/urandom > /bigfil2
+RUN head -c 2000M </dev/urandom > /bigfil2
 
 RUN head -c 10000M </dev/urandom > /bigfile3
 

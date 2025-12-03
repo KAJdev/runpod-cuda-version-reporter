@@ -18,14 +18,6 @@ RUN [ -z "$TEST_ARG" ] \
     && (echo "! TEST_ARG missing" && false) \
     || echo "✓ TEST_ARG is $TEST_ARG"
 
-
-# make some layers for testing
-RUN head -c 500M </dev/urandom > /bigfile1
-
-RUN head -c 200M </dev/urandom > /bigfil2
-
-RUN head -c 3000M </dev/urandom > /bigfile3
-
 # Python dependencies
 COPY builder/requirements.txt /requirements.txt
 RUN python3 -m pip install --upgrade pip && \
@@ -38,5 +30,12 @@ RUN python3 -m pip install --upgrade pip && \
 
 # Add src files (Worker Template)
 ADD src .
+
+# make some layers for testing
+RUN head -c 500M </dev/urandom > /bigfile1
+
+RUN head -c 200M </dev/urandom > /bigfil2
+
+RUN head -c 3000M </dev/urandom > /bigfile3
 
 CMD python3 -u /handler.py
